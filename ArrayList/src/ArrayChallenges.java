@@ -63,7 +63,7 @@ for(int j =songs.size()-1 ; j>=0;j--) {
 	System.out.println();		
 			
 		
-System.out.println(songs.get(6));
+int number=songs.size();
 			
 			} 
 		
