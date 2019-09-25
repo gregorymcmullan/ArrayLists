@@ -32,13 +32,42 @@ public class ArrayChallenges
 					System.out.println(s);
 				}
 					
-					
-			System.out.println("+-+-+-+-+-+-+-+-+-+");		
+					System.out.println();
+				
 			 Collections.sort(songs);
 			 for(String s : songs) {
 				 	System.out.println(s);
 				}
+		System.out.println();
+			 	System.out.println(songs.get(0));
+System.out.println(songs.get(9));
+			System.out.println();
 
-		System.out.println("+-+-+-+-+-+-+-+-+-+");
-			} }
+
+for(int i = songs.size()-1;i>=0;i--) {
+String firstCharacter = songs.get(i).substring(0,1);
+	
+	
+	if(firstCharacter.equals ("R")) {
+		songs.remove(i);
+		
+		}
+	
+
+}
+
+for(int j =songs.size()-1 ; j>=0;j--) {
+	System.out.println(songs.get(j));
+	}
+			
+	System.out.println();		
+			
+		
+System.out.println(songs.get(6));
+			
+			} 
+		
+	
+	
+	}
 			
